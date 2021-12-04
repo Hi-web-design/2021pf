@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <!-- meta情報 -->
+  <title>Portfolio!</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <!-- ogp -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:description" content="" />
+  <!-- ファビコン -->
+  <!-- <link rel="”icon”" href="" /> -->
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <!-- font awesome CSS -->
+  <link href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&amp;family=Noto+Sans+KR&amp;family=Varela+Round&amp;display=swap"
+    rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+  <script defer type="text/javascript" src="./assets/js/script.js"></script>
+</head>
+
+<body>
+
+  <header class="l-header p-header js-top-header">
+    <div class="p-header__inner">
+      <div class="p-header__logo">
+        <a href=""><img class="c-logo" src="./assets/images/common/logo.svg" alt="タイトルロゴ"></a>
+      </div>
+
+      <div class="p-header__drawer c-hamburger js-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="p-header__overlay js-overlay"></div>
+      <div class="p-header__menu p-drawer-menu js-drawer-menu">
+        <div class="p-drawer-menu__logo">
+          <img src="./assets/images/common/sp-logo.svg" alt="タイトルロゴ">
+        </div>
+        <ul class="p-drawer-menu__items">
+          <li class="p-drawer-menu__item">
+            <a href="">works</a>
+          </li>
+          <li class="p-drawer-menu__item">
+            <a href="">about</a>
+          </li>
+          <li class="p-drawer-menu__item">
+            <a href="">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="l-mv p-mv js-mv">
+    <div class="p-mv__video">
+      <video class="c-video" src="./assets/images/common/top-movie2.mp4" loop autoplay muted playsinline></video>
+    </div>
+    <div class="p-mv__typing">
+      <div class="p-mv__wrapper">
+        <h1><span class="p-mv__typed"></span></h1>
+      </div>
+    </div>
+  </div>
+
+  <section class="l-works p-works">
+    <div class="l-inner">
+      <div class="p-works__head">
+        <h2 class="p-works__title c-section-title">Works</h2>
+        <div class="c-module__line"></div>
+      </div>
+      <div class="p-works__items p-card-list">
+        <a href="https://hi-web-design.github.io/codeups_demo/" target=”_blank” rel=”noopener noreferrer” class="p-works-card p-card-list__item">
+          <figure class="p-works-card__img">
+            <img src="./assets/images/common/works_1.png" alt="">
+          </figure>
+          <div class="p-works-card__body">
+            <h3 class="p-works-card__title">コーディング</h3>
+            <p class="p-works-card__text">Xdデザインカンプからデモサイトのコーディング</p>
+          </div>
+        </a>
+        <a href="http://hi-web-design.com/snowmonkey-ju-demo" target=”_blank” rel=”noopener noreferrer” class="p-works-card p-card-list__item">
+          <figure class="p-works-card__img">
+            <img src="./assets/images/common/works_2.png" alt="">
+          </figure>
+          <div class="p-works-card__body">
+            <h3 class="p-works-card__title">Word Press</h3>
+            <p class="p-works-card__text">有料テーマSnowMonkeyを使用したデモサイト</p>
+          </div>
+        </a>
+        <a href="" class="p-works-card p-card-list__item">
+          <figure class="p-works-card__img">
+            <img src="./assets/images/common/works_3.png" alt="">
+          </figure>
+          <div class="p-works-card__body">
+            <h3 class="p-works-card__title">コーディング</h3>
+            <p class="p-works-card__text">figmaデザインカンプからデモサイトのコーディング</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="l-about p-about">
+    <div class="l-inner">
+      <div class="p-about__head">
+        <h2 class="p-about__title c-section-title">About me</h2>
+        <div class="c-module__line"></div>
+      </div>
+      <div class="p-about__items">
+        <div class="p-about__item">
+          <p class="p-about__item-title"><a href="https://twitter.com/Hi_web_design"><i
+                class="fab fa-twitter c-icon"></i>ひとし@🦊コーディング×行動</a></p>
+          <p class="p-about__desc">○○県育ち、○○県在住。○○を主に活動中。</p>
+          <p class="p-about__desc">趣味は音楽を聴くこと。週に1回は映画をみたりして過ごしています。</p>
+        </div>
+
+        <div class="p-about__item">
+          <p class="p-about__item-title">Skill</p>
+          <div class="p-about__icon wow fadeInUp" data-wow-delay=".3s">
+            <div class="c-icon">
+              <i class="fab fa-html5"></i>
+              <i class="fab fa-css3"></i>
+              <i class="fab fa-bootstrap"></i>
+              <i class="fab fa-sass"></i>
+              <i class="fab fa-js-square"></i>
+              <i class="fab fa-wordpress"></i>
+              <i class="fab fa-adobe"></i>
+            </div>
+          </div>
+
+          <p class="p-about__desc">「簡単なWebサイトが欲しい方」「本格的なWebサイトが欲しい方」</p>
+          <p class="p-about__desc">
+            お客様のご要望に併せてwebページのコーディングや既存テーマのカスタマイズ、オリジナルテーマの制作が可能です。また、アニメーションの実装・PCサイズ・タブレットサイズ・スマートフォンサイズなど、ご要望のブレイクポイントに応じてレスポンシブ対応致します。まずはお気軽にご相談ください。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-contact p-contact">
+    <div class="l-inner">
+      <div class="p-contact__head">
+        <h2 class="p-contact__title c-section-title">Contact</h2>
+        <div class="c-module__line"></div>
+        <p class="p-contact__text">
+          お仕事のご相談、ご依頼などお気軽にお問い合わせください。
+        </p>
+      </div>
+      <div class="p-contact__wrapper">
+        <form method="post" action="mail.php">
+          <div class="mb-3">
+            <input type="text" class="form-control" name="お名前" placeholder="名前" value="">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" name="Email" placeholder="メールアドレス" value="">
+          </div>
+          <div class="mb-4">
+            <textarea class="form-control" name="お問い合わせ内容" rows="5" placeholder="メッセージを入力してください"></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-block btn-custom-2">送信</button>
+          </div>
+        </form>
+        <!-- <form id="contact-form" action="mail.php" method="post">
+            <div class="form-group">
+              <label class="sr-only" for="name">Name</label>
+              <input type="text" id="name" class="form-control" name="name" placeholder="name" required>
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="email">Email address</label>
+              <input type="email" id="email" class="form-control" name="mail" placeholder="e-mail" required>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="c_message" name="content" rows="7" placeholder="your message"
+                required></textarea>
+            </div>
+            <button type="submit" class="btn btn-block btn-custom-2">Send Message</button>
+          </form> -->
+      </div>
+    </div>
+  </section>
+
+  <footer class="l-footer p-footer">
+    <p class="c-copy">&copy;2021 Hi web design.</p>
+  </footer>
+
+</body>
+
+</html>
